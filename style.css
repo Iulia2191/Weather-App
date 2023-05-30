@@ -1,0 +1,50 @@
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+h2 {
+  color: #323252;
+}
+
+/* Layout */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148920282.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  flex-grow: 1;
+}
+
+/* Header */
+header {
+  height: 20vh;
+  background-color: #323252;
+}
+.choose {
+  text-align: center !important;
+}
+input {
+  border-radius: 10px;
+  background-color: ghostwhite;
+}
+h3 {
+  color: #323252;
+}
+.weather-forecast-box {
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+footer {
+  background-color: #323252 !important;
+}
