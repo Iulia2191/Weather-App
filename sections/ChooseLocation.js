@@ -1,4 +1,5 @@
 const button = document.querySelector('#btn')
+const searchInput = document.getElementById('search')
 
 function updateCurrentCity (city) {
   const currentCity = document.querySelector('.current-city')
@@ -18,4 +19,12 @@ button.addEventListener('click', function (event) {
   const searchInput = document.getElementById('search')
   const city = searchInput.value
   updateWeather(city)
+})
+
+searchInput.addEventListener('keydown', function (event) {
+  if (event.key === 'Enter') {
+    event.preventDefault()
+    const city = searchInput.value
+    updateWeather(city)
+  }
 })

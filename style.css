@@ -48,3 +48,6 @@ h3 {
 footer {
   background-color: #323252 !important;
 }
+button {
+  margin: 10px;
+}
